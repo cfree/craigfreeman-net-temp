@@ -12,7 +12,7 @@ const IndexPage = () => {
         <a href="https://linkedin.com/in/cfree">
           <img
             className={Styles["logo"]}
-            src="/static/logo.svg"
+            src="static/logo.svg"
             alt="Craig Freeman Logo"
           />
         </a>
