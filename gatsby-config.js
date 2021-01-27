@@ -11,5 +11,17 @@ module.exports = {
       },
     },
     "gatsby-plugin-react-helmet",
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `craigfreeman-net`,
+        short_name: `cfree`,
+        start_url: `/`,
+        background_color: `#4d9abe`,
+        theme_color: `#4d9abe`,
+        display: `minimal-ui`,
+        icon: `src/images/favicon.png`, // This path is relative to the root of the site.
+      },
+    },
   ],
 };
